@@ -6,8 +6,8 @@ while True:
             count+=1;
             break
         count+=1
-    print("User name:",s[:(count-1)],"and domain:",(s[count:]).upper())
-    r=input("DO you want to slice your mail again?(Type 'y' for yes 'n' for no): ")
+    print("Username:"+s[:(count-1)],"and domain:"+(s[count:]).upper())
+    r=input("DO you want to slice your email again?(Type 'y' for yes 'n' for no): ")
     if r=='y':
         pass
     else:
